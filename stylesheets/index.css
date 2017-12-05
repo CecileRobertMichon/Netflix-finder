@@ -1,0 +1,101 @@
+body {
+    background-image: //url("images/popcorn.jpg");
+    background-color: whitesmoke;
+    background-size:     cover;                    
+    background-repeat:   no-repeat;
+    background-position: center center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#title{
+    width: inherit;
+    text-align: center;
+    color: red;
+    margin-top: 70;
+    font-size: 34;
+    font-family: 'Roboto', sans-serif;
+}
+
+#start_button{
+    width: auto;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 0%;
+    font-size: 28;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 30;
+    padding-right: 30;
+}
+
+#description{
+    width: 500;
+    text-align: center;
+}
+.centered{
+    margin-top: 200;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: darkred;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#black{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#black p, #black h1{
+padding: 10px;
+}
+
+#introduction{
+	font-size: 16px;
+}
+.learn-btn, .download-btn {
+    display: inline-block;
+    padding: 18px 46px;
+	margin: 0 auto;
+    border: 2px solid darkslategrey;
+    border-radius: 3px;
+    color: darkslategrey;
+    font-size: 20px;
+}
+
+#center-button{
+    align-content: center;
+    display: flex;
+    
+}
